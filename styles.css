@@ -46,5 +46,14 @@ body {
     height: 4px;
     margin-top: 1px;
 }
+#contact hr {
+  height: 4px;
+  margin-top: 1px;
+}
+#Skills hr,
+#Experience hr {
+  height: 4px;
+  margin-top: 1px;
+}
 
 /* >>>>>>> 19a7ed6e8145d35dd06cb1882009c0b896e47af1*/

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>My Bootstrap Portfolio Website </title>
 </head>
-<body data-spy="scroll" data-bs-target=".navbar">
+<body data-bs-spy="scroll" data-bs-target=".navbar">
     <!--Navbar-->
     <div id="Header">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
@@ -22,9 +22,9 @@
                 <div class="collapse navbar-collapse justify-content-end" id="Nav-Menu">
                     <ul class="navbar-nav ml-auto ">
                         <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Experience</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>  
@@ -79,19 +79,19 @@
                             </div>
                             <div class="card-footer bg-danger">
                                 <a  href="https://github.com/rahimialijan">
-                                    <img width="38" class="mx-4 img-responsive" src="images/Icons/Icon-GitHub.svg" alt="GitHub">
+                                    <img width="30" class="mx-4 img-responsive" src="images/Icons/Icon-GitHub.svg" alt="GitHub">
                                 </a>
                                  <a href="https://www.linkedin.com/in/alijan-rahimi-18389ab3/">
-                                    <img width="38" class="mx-4 img-responsive" src="images/Icons/Icon-Linkedin.svg" alt="Linkedin">
+                                    <img width="30" class="mx-4 img-responsive" src="images/Icons/Icon-Linkedin.svg" alt="Linkedin">
                                  </a>
                                  <a href="">
-                                    <img width="38" class="mx-4 img-responsive" src="images/Icons/Icon-Angelist.svg" alt="Angelist">
+                                    <img width="30" class="mx-4 img-responsive" src="images/Icons/Icon-Angelist.svg" alt="Angelist">
                                 </a>
                                 <a href="https://twitter.com/AlijanRahimi10">
-                                    <img width="38" class="mx-4 img-responsive" src="images/Icons/Icon-Twitter.svg" alt="Twitter">
+                                    <img width="30" class="mx-4 img-responsive" src="images/Icons/Icon-Twitter.svg" alt="Twitter">
                                 </a>
                                 <a href="">
-                                    <img width="38" class="mx-4 img-responsive" src="images/Icons/Icon-Medium.svg" alt="Medium">
+                                    <img width="30" class="mx-4 img-responsive" src="images/Icons/Icon-Medium.svg" alt="Medium">
                                 </a>
                             </div>
                         </div>
@@ -111,31 +111,31 @@
     <!--Skills-->
     <div id="Skills" class="mt-5">
         <div class ="container">
-            <span class="bg-primary text-white">Skills</span><hr class="bg-primary">
+            <span class="btn btn-dark btn-lg text-white mt-3">Skills</span><hr class="bg-dark">
             <div class="row">
                 <div class="col">
                     <div class="card bg-white">
-                        <h3 class="ml-3 my-3">Database Management</h3>
+                        <h3 class="ml-3 my-3 mx-3">Database Management</h3>
+                        <div class="progress mx-3">
+                            <div class="progress-bar bg-dark" style="width: 50%;">50%</div>
+                        </div>
+                        <h3 class="ml-3 my-3 mx-3">Version Control</h3>
+                        <div class="progress mx-3 mx-3">
+                            <div class="progress-bar bg-dark" style="width: 95%;">95%</div>
+                        </div>
+                        <h3 class="ml-3 my-3 mx-3">CLI</h3>
+                        <div class="progress mx-3">
+                            <div class="progress-bar bg-dark" style="width: 89%;">89%</div>
+                        </div>
+                        <h3 class="ml-3 my-3 mx-3">Web Development</h3>
+                        <div class="progress mx-3">
+                            <div class="progress-bar bg-dark" style="width: 80%;">80%</div>
+                        </div>
+                        <h3 class="ml-3 my-3 mx-3">API Design</h3>
                         <div class="progress mx-3">
                             <div class="progress-bar bg-dark" style="width: 100%;">100%</div>
                         </div>
-                        <h3 class="ml-3 my-3">Version Control</h3>
-                        <div class="progress mx-3">
-                            <div class="progress-bar bg-dark" style="width: 100%;">100%</div>
-                        </div>
-                        <h3 class="ml-3 my-3">CLI</h3>
-                        <div class="progress mx-3">
-                            <div class="progress-bar bg-dark" style="width: 100%;">100%</div>
-                        </div>
-                        <h3 class="ml-3 my-3">Web Development</h3>
-                        <div class="progress mx-3">
-                            <div class="progress-bar bg-dark" style="width: 100%;">100%</div>
-                        </div>
-                        <h3 class="ml-3 my-3">API Design</h3>
-                        <div class="progress mx-3">
-                            <div class="progress-bar bg-dark" style="width: 100%;">100%</div>
-                        </div>
-                        <h3 class="ml-3 my-3">UX/UI</h3>
+                        <h3 class="ml-3 my-3 mx-3">UX/UI</h3>
                         <div class="progress mx-3">
                             <div class="progress-bar bg-dark" style="width: 95%;">95%</div>
                         </div>
@@ -148,16 +148,16 @@
     <!--Experience-->
     <div id="Experience">
         <div class="container mt-5">
-            <span class="bg-success text-white">Experience</span> <hr class="bg-success">
+            <span class="btn btn-success text-white btn-lg mt-3">Experience</span> <hr class="bg-success">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 my-2">
                     <div class="card bg-white">
                         <img src="./assets/microverse_icon.png" width="200" height="80" class="img-fluid mx-auto py-3 " alt="Microverse logo">
                         <h3 class="text-center text-danger">Micronaut</h3>
                         <p class="lead text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid eius quisquam culpa facilis minus illum earum error corporis, eum deleniti maiores sunt dolore omnis architecto rem fugiat a recusandae?</p>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 my-2">
                     <div class="card bg-white">
                         <img src="./assets/developer.jpeg" width="300" height="80" class="img-fluid mx-auto
                         py-3 " alt="A company's logo">
@@ -165,14 +165,14 @@
                         <p class="lead text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid eius quisquam culpa facilis minus illum earum error corporis, eum deleniti maiores sunt dolore omnis architecto rem fugiat a recusandae?</p>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 my-2">
                     <div class="card bg-white">
                         <img src="./assets/engineer.jpeg" width="390" height="80" class="img-fluid mx-auto py-3 " alt="A company's logo">
                         <h3 class="text-center text-danger">Software Engineer</h3>
                         <p class="lead text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid eius quisquam culpa facilis minus illum earum error corporis, eum deleniti maiores sunt dolore omnis architecto rem fugiat a recusandae?</p>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 my-2">
                     <div class="card bg-white">
                         <img src="./assets/design.jpg" width="350" height="70" class="img-fluid mx-auto py-3 " alt="A company's logo">
                         <h3 class="text-center text-danger">Web Designer</h3>
