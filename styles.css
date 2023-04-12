@@ -1,0 +1,20 @@
+/* Skills */
+#Skills span{
+    padding: 10px 20px 10px 20px;
+}
+
+#Skills hr {
+    border-width: 2px;
+    margin-top: 06px;
+}
+
+/*Experience */
+
+#Experience span{
+    padding: 10px 20px 10px 20px;
+}
+
+#Experience hr {
+    border-width: 2px;
+    margin-top: 06px;
+}
