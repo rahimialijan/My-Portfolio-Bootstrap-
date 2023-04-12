@@ -5,15 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="bootstrap/js/bootstrap.js"></script>
     <link rel="stylesheet" href="styles.css">
     <title>My Bootstrap Portfolio Website </title>
 </head>
-<body>
+<body data-spy="scroll" data-bs-target=".navbar">
     <!--Navbar-->
     <div id="Header">
-        
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Nav-Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="#" class="navbar-brand"><h3>Portolio</h3></a>
+                <div class="collapse navbar-collapse justify-content-end" id="Nav-Menu">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>  
+        </nav>
+    </div>
 
+    <!--Background-image-->
+    <div id="barkground-img"></div>
+
+    <!--About-section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="AboutData">
+                        <div class="card bg-with">
+                            <div class="card-title my-5">
+                                <div class="media d-flex">
+                                    <img src="images/about-img.jpg" width="250" height="250" class="image-fluid rounded-top mx-5 d-none d-lg-block">
+                                    <div class="media-body">
+                                        <div class="container">
+                                            <h3 class="media-heading display-4 ml-5">Hey There. I'm Alijan</h3>
+                                            <p class="text-muted ml-5">I’m a software developer</p>
+                                        </div>
+                                        <div class="container">
+                                            <table class="table table-responsive ml-4">
+                                                <tr>
+                                                    <td class="text-muted">Age</td>
+                                                    <td>:</td>
+                                                    <td>30 Years Old</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-muted">Email</td>
+                                                    <td>:</td>
+                                                    <td>alijanrahimi1990@gmail.com</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-muted">Website</td>
+                                                    <td>:</td>
+                                                    <td>https://rahimialijan.github.io/My-Portfolio-Website/</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-muted">Phone</td>
+                                                    <td>:</td>
+                                                    <td>+923319197112</td>
+                                                </tr>
+
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-danger">
+                                <a  href="https://github.com/rahimialijan">
+                                    <img width="38" class="mx-4 img-responsive" src="images/Icons/Icon-GitHub.svg" alt="GitHub">
+                                </a>
+                                 <a href="https://www.linkedin.com/in/alijan-rahimi-18389ab3/">
+                                    <img width="38" class="mx-4 img-responsive" src="images/Icons/Icon-Linkedin.svg" alt="Linkedin">
+                                 </a>
+                                 <a href="">
+                                    <img width="38" class="mx-4 img-responsive" src="images/Icons/Icon-Angelist.svg" alt="Angelist">
+                                </a>
+                                <a href="https://twitter.com/AlijanRahimi10">
+                                    <img width="38" class="mx-4 img-responsive" src="images/Icons/Icon-Twitter.svg" alt="Twitter">
+                                </a>
+                                <a href="">
+                                    <img width="38" class="mx-4 img-responsive" src="images/Icons/Icon-Medium.svg" alt="Medium">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <span class="btn btn-danger btn-lg bg-danger text-white mt-3">About Me</span><hr class="bg-danger">
+                    <p class="lead text-justity">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                </div>
+            </div>
+        </div>
     </div>
     <!--Skills-->
     <div id="Skills" class="mt-5">

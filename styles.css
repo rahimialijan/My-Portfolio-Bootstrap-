@@ -1,5 +1,6 @@
+/*<<<<<<< HEAD*/
 /* Skills */
-#Skills span{
+#Skills span {
     padding: 10px 20px 10px 20px;
 }
 
@@ -10,7 +11,7 @@
 
 /*Experience */
 
-#Experience span{
+#Experience span {
     padding: 10px 20px 10px 20px;
 }
 
@@ -18,3 +19,32 @@
     border-width: 2px;
     margin-top: 06px;
 }
+
+/*=======*/
+body {
+    background-color: #ccc;
+}
+
+
+#barkground-img {
+    background-image: url(images/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+}
+
+#about {
+    margin-top: -150px;
+}
+
+#about a {
+    text-decoration: none;
+}
+
+#about hr {
+    height: 4px;
+    margin-top: 1px;
+}
+
+/* >>>>>>> 19a7ed6e8145d35dd06cb1882009c0b896e47af1*/
