@@ -1,0 +1,23 @@
+body{
+  background-color: #ccc;
+}
+
+
+#barkground-img {
+  background-image: url(images/background.png);
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+}
+
+#about{
+  margin-top: -150px;
+}
+#about a{
+  text-decoration: none;
+}
+#about hr{
+  height:4px;
+  margin-top: 1px;
+}
