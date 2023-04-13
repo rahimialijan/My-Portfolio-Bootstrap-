@@ -4,12 +4,222 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <title>My Bootstrap Portfolio Website </title>
 </head>
-<body>
-    <h1>Hello world!</h1>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!--Navbar-->
+    <div id="Header">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <button class="btn navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Nav-Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="#" class="navbar-brand"><h3>Alijan Portfolio</h3></a>
+                <div class="collapse navbar-collapse justify-content-end" id="Nav-Menu">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>  
+        </nav>
+    </div>
 
-    <script src="index.js"></script>
+    <!--Background-image-->
+    <div id="barkground-img"></div>
+
+    <!--About-section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="AboutData">
+                        <div class="card bg-with">
+                            <div class="card-title my-5">
+                                <div class="media d-flex">
+                                    <img src="images/about-img.jpg" width="250" height="250" class="image-fluid rounded-top mx-5 d-none d-lg-block">
+                                    <div class="media-body">
+                                        <div class="container">
+                                            <h3 class="media-heading display-4 ml-5">Hey There. I'm Alijan</h3>
+                                            <p class="text-muted ml-5">I’m a software developer</p>
+                                        </div>
+                                        <div class="container">
+                                            <table class="table table-responsive ml-4">
+                                                <tr>
+                                                    <td class="text-muted">Age</td>
+                                                    <td>:</td>
+                                                    <td>30 Years Old</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-muted">Email</td>
+                                                    <td>:</td>
+                                                    <td>alijanrahimi1990@gmail.com</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-muted">Website</td>
+                                                    <td>:</td>
+                                                    <td>https://rahimialijan.github.io/My-Portfolio-Website/</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-muted">Phone</td>
+                                                    <td>:</td>
+                                                    <td>+923319197112</td>
+                                                </tr>
+
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-dark text-center">
+                                <a  href="https://github.com/rahimialijan">
+                                    <i class="bi bi-github mx-3 text-white fs-3"></i>
+                                </a>
+                                 <a href="https://www.linkedin.com/in/alijan-rahimi-18389ab3/">
+                                    <i class="bi bi-linkedin mx-3 text-white fs-3"></i>
+                                 </a>
+                                 <a href="https://www.facebook.com/alijanrahimi24">
+                                    <i class="bi bi-facebook mx-3 text-white fs-3"></i>
+                                </a>
+                                <a href="https://twitter.com/AlijanRahimi10">
+                                    <i class="bi bi-twitter mx-3 text-white fs-3"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-instagram mx-3 text-white fs-3"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <span class="btn btn-danger btn-lg text-white mt-3">About Me</span><hr class="bg-danger">
+                    <p class="lead text-justity">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Skills-->
+    <div id="Skills" class="mt-5">
+        <div class ="container">
+            <span class="btn btn-dark btn-lg text-white mt-3">Skills</span><hr class="bg-dark">
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-white">
+                        <h3 class="ml-3 my-3 mx-5">Database Management</h3>
+                        <div class="progress mx-5">
+                            <div class="progress-bar bg-dark database">50%</div>
+                        </div>
+                        <h3 class="ml-3 my-3 mx-5">Version Control</h3>
+                        <div class="progress  mx-5">
+                            <div class="progress-bar bg-dark version" >95%</div>
+                        </div>
+                        <h3 class="ml-3 my-3 mx-5">CLI</h3>
+                        <div class="progress mx-5">
+                            <div class="progress-bar bg-dark cli" >89%</div>
+                        </div>
+                        <h3 class="ml-3 my-3 mx-5">Web Development</h3>
+                        <div class="progress mx-5">
+                            <div class="progress-bar bg-dark web" >80%</div>
+                        </div>
+                        <h3 class="ml-3 my-3 mx-5">API Design</h3>
+                        <div class="progress mx-5">
+                            <div class="progress-bar bg-dark api">100%</div>
+                        </div>
+                        <h3 class="ml-3 my-3 mx-5">UX/UI</h3>
+                        <div class="progress mx-5 mb-5">
+                            <div class="progress-bar bg-dark ux">95%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Experience-->
+    <div id="Experience">
+        <div class="container mt-5">
+            <span class="btn btn-success text-white btn-lg mt-3">Experience</span> <hr class="bg-success">
+            <div class="row">
+                <div class="col-lg-6 my-2">
+                    <div class="card bg-white">
+                        <img src="./assets/microverse_icon.png" width="200" height="80" class="img-fluid mx-auto py-3 " alt="Microverse logo">
+                        <h3 class="text-center text-danger">Micronaut</h3>
+                        <p class="lead text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid eius quisquam culpa facilis minus illum earum error corporis, eum deleniti maiores sunt dolore omnis architecto rem fugiat a recusandae?</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-2">
+                    <div class="card bg-white">
+                        <img src="./assets/developer.jpeg" width="300" height="80" class="img-fluid mx-auto
+                        py-3 " alt="A company's logo">
+                        <h3 class="text-center text-danger">Software Developer</h3>
+                        <p class="lead text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid eius quisquam culpa facilis minus illum earum error corporis, eum deleniti maiores sunt dolore omnis architecto rem fugiat a recusandae?</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-2">
+                    <div class="card bg-white">
+                        <img src="./assets/engineer.jpeg" width="390" height="80" class="img-fluid mx-auto py-3 " alt="A company's logo">
+                        <h3 class="text-center text-danger">Software Engineer</h3>
+                        <p class="lead text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid eius quisquam culpa facilis minus illum earum error corporis, eum deleniti maiores sunt dolore omnis architecto rem fugiat a recusandae?</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-2">
+                    <div class="card bg-white">
+                        <img src="./assets/design.jpg" width="350" height="70" class="img-fluid mx-auto py-3 " alt="A company's logo">
+                        <h3 class="text-center text-danger">Web Designer</h3>
+                        <p class="lead text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid eius quisquam culpa facilis minus illum earum error corporis, eum deleniti maiores sunt dolore omnis architecto rem fugiat a recusandae?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!--Contact-Form-->
+ <div id="contact">
+    <div class="container mt-5">
+        <span class="btn btn-primary btn-lg text-white mt-3">Contact Me</span><hr class="bg-primary">
+        <div class="row">
+            <div class="col">
+                <div class="card bg-white">
+                    <div class="card-header">
+                        <h4 class="my-4">Contact Me On Below</h4>
+                        <div class="form-group my-2">
+                            <input type="text" placeholder="Your Name" class="form-control">
+                        </div>
+                        <div class="form-group my-2">
+                            <input type="text" placeholder="Email" class="form-control">
+                        </div>
+                        <div class="form-group my-2">
+                            <textarea class="form-control" placeholder="Your Message..."></textarea>
+                        </div>
+                        <div class="form-group my-2">
+                            <button class="btn btn-success text-white">Submit Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Footer-->
+<div class="container-fluid bg-dark">
+    <div class="row">
+        <div class="col">
+            <div class="container">
+                <p class="text-white pt-3 text-center">Website Designed By: Alijan and Cuauhtemoc</p>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
